@@ -603,10 +603,6 @@ video {
   display: grid;
 }
 
-.hidden{
-  display: none;
-}
-
 .h-32{
   height: 8rem;
 }
@@ -748,6 +744,18 @@ video {
   padding-top: 2.25rem;
 }
 
+.pt-24{
+  padding-top: 6rem;
+}
+
+.pr-36{
+  padding-right: 9rem;
+}
+
+.pb-24{
+  padding-bottom: 6rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -758,6 +766,11 @@ video {
 
 .font-Jim{
   font-family: Jim Nightshade;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-6xl{
@@ -772,16 +785,6 @@ video {
 
 .text-\[12rem\]{
   font-size: 12rem;
-}
-
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-bold{
