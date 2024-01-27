@@ -583,6 +583,11 @@ video {
   margin-bottom: 9rem;
 }
 
+.mx-12{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
 .mb-2{
   margin-bottom: 0.5rem;
 }
@@ -603,8 +608,16 @@ video {
   display: grid;
 }
 
+.hidden{
+  display: none;
+}
+
 .h-32{
   height: 8rem;
+}
+
+.h-12{
+  height: 3rem;
 }
 
 .max-h-full{
@@ -621,6 +634,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-32{
+  width: 8rem;
 }
 
 .grid-cols-3{
@@ -787,6 +804,26 @@ video {
   font-size: 12rem;
 }
 
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -824,6 +861,40 @@ video {
 .focus\:ring-blue-300:focus{
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(147 197 253 / var(--tw-ring-opacity));
+}
+
+@media (min-width: 640px){
+  .sm\:mx-36{
+    margin-left: 9rem;
+    margin-right: 9rem;
+  }
+
+  .sm\:h-32{
+    height: 8rem;
+  }
+
+  .sm\:w-96{
+    width: 24rem;
+  }
+
+  .sm\:py-36{
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+
+  .sm\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-\[12rem\]{
+    font-size: 12rem;
+  }
+
+  .sm\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }
 
 @media (prefers-color-scheme: dark){
